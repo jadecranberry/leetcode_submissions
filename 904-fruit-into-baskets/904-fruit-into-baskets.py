@@ -1,4 +1,5 @@
-#from collections input defaultdict
+#same as Longest Substring with K Distinct Characters (medium): LC 340
+#use sliding window+hashmap
 class Solution:
     def totalFruit(self, fruits: List[int]) -> int:
         left = 0
