@@ -1,5 +1,5 @@
+#sliding window and use hashmap to store the index of the letters. Once repetitive letter is found, move the start point to the right of the index for the first appearance of the repetitive letter.
 class Solution:
-    #sliding window optimized solution
     def lengthOfLongestSubstring(self, s: str) -> int:
         left = 0
         maxlength = 0            
