@@ -31,8 +31,9 @@ class Solution(object):
                 #in get(word, 0), 0 is the default value returned when word not found
                 if word_seen[word]>word_frequency.get(word, 0):
                     break
-            if word_seen==word_frequency:
-                index_list.append(i)
+                    
+                if j+1==count_words:
+                    index_list.append(i)
                 
         return index_list         
                 
