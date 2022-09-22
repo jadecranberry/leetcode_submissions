@@ -14,5 +14,6 @@ class Solution:
             elif nums[curr]==2:
                 nums[p2], nums[curr]=nums[curr],nums[p2]
                 p2-=1
+                #at this time we don't want to increase curr cause we also need to compare the swapped value in the next round
             else:
                 curr+=1
