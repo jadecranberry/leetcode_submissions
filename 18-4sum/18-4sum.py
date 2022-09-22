@@ -1,5 +1,5 @@
 
-
+# two pointers, similar to leetcode 15: triplet sum to zero.
 class Solution:
     def fourSum(self, nums: List[int], target: int) -> List[List[int]]:
         nums.sort()
