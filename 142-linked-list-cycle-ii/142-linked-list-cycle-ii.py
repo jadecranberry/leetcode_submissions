@@ -4,6 +4,12 @@
 #         self.val = x
 #         self.next = None
 
+
+#use fast and slow pointers: 
+#1. determine if the list has cycle, if so, we calculate the cycle
+#length K with function:calculate_cycle_length. 
+#2. then we use two pointers p1 and p2 and advance p2 by the length of K. 
+#then we increase them by 1 on each iteration. when p1 and p2 meet, we found the cycle start point
 class Solution:
     def detectCycle(self, head: Optional[ListNode]) -> Optional[ListNode]:
         slow, fast = head, head
