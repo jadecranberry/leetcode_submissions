@@ -12,7 +12,6 @@ class Solution:
     def find_square_sum(self, n):
         _sum=0
         while n>0:
-            digit=n%10
+            n, digit=divmod(n,10)
             _sum+=digit*digit
-            n//=10
         return _sum     
