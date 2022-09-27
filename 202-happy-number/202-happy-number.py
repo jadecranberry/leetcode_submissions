@@ -1,3 +1,5 @@
+#use fast and slow pointers to detect cycle.
+
 class Solution:
     def isHappy(self, n: int) -> bool:
         slow, fast = n, n
