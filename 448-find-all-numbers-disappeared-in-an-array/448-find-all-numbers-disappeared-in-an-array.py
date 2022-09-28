@@ -3,6 +3,7 @@ class Solution:
         i=0
         while i<len(nums):
             j=nums[i]-1
+            #if there are repetitive elements, nums[i] might eaqual to nums[j] although i and j is different, hence this condition would skip duplicate elements.
             if nums[i]!=nums[j]:
                 nums[i], nums[j]=nums[j],nums[i]
             else:
