@@ -11,5 +11,5 @@ class Solution:
         for i in range(n):
             if nums[i]!=i+1:
                 return i+1
-            
+        #when all indexes match, we need return n+1    
         return n+1    
