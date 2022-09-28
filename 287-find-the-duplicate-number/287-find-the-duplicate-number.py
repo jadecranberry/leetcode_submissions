@@ -1,3 +1,4 @@
+#this appraoch modifies the array, but the questions asks not to modify the array.
 class Solution:
     def findDuplicate(self, nums: List[int]) -> int:
         i=0
