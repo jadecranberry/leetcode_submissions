@@ -23,5 +23,6 @@ class Solution:
             currentPath+='->'
             self.binaryTreePath_recursive(currentNode.left, currentPath, allPaths)
             self.binaryTreePath_recursive(currentNode.right, currentPath, allPaths)
+        #since there is no backtracking, we don't need to delete the last element in currentPath   
           
             
