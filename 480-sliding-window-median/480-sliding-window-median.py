@@ -1,3 +1,4 @@
+#use two heaps to find median, at the same time remove the first element that's not in the window.
 from heapq import *
 class Solution:
     def __init__(self):
