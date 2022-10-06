@@ -1,3 +1,4 @@
+#use BFS, add each case switched permutation to previous permutations.
 class Solution:
     def letterCasePermutation(self, s: str) -> List[str]:
         permutations=[]
