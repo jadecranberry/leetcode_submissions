@@ -12,6 +12,7 @@ class Solution:
                 startIndex=endIndex+1
             #the following endIndex is the updated one with new subsets added    
             endIndex=len(result)-1    
+            #if there is duplicate elements, only add new elemnts to the last added subsets, not to the entire result.
             for j in range(startIndex, endIndex+1):
                     pre_subset=list(result[j])
                     pre_subset.append(nums[i])
