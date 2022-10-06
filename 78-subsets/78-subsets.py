@@ -1,3 +1,4 @@
+#time complexity: N*2^N, space complexity:N*2^N
 class Solution:
     def subsets(self, nums: List[int]) -> List[List[int]]:
         result=[]
